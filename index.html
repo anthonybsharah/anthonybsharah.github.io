@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeid Bsharah - Political Science Student</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #1a4028;
+        }
+        .section-title {
+            border-bottom: 2px solid #1a4028;
+            padding-bottom: 0.5rem;
+            margin-bottom: 2rem;
+        }
+        .photo-grid img {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .photo-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .writing-item {
+            transition: background-color 0.3s ease;
+        }
+        .writing-item:hover {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-xl font-bold">Zeid Bsharah</h1>
+                <div class="flex space-x-6">
+                    <a href="#about" class="nav-link text-gray-600 hover:text-gray-900">About</a>
+                    <a href="#writing" class="nav-link text-gray-600 hover:text-gray-900">Writing</a>
+                    <a href="#resume" class="nav-link text-gray-600 hover:text-gray-900">Resume</a>
+                    <a href="#photography" class="nav-link text-gray-600 hover:text-gray-900">Photography</a>
+                    <a href="#contact" class="nav-link text-gray-600 hover:text-gray-900">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-white py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-5xl font-bold mb-4">Zeid Bsharah</h1>
+            <p class="text-xl text-gray-600 mb-8">Political Science Student</p>
+            <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-8">
+                Graduating in three months with a passion for political analysis, legal research, and visual storytelling. 
+                Exploring the intersection of policy, law, and community through academic writing and photography.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="#writing" class="bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800 transition">View My Work</a>
+                <a href="#contact" class="border border-gray-900 text-gray-900 px-6 py-3 rounded hover:bg-gray-900 hover:text-white transition">Get in Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold section-title">About Me</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <p class="text-lg leading-relaxed mb-6">
+                        I am a final-year Political Science student with a deep interest in understanding how political systems, 
+                        legal frameworks, and community dynamics shape our society. My academic journey has equipped me with 
+                        strong analytical skills, research capabilities, and a nuanced understanding of policy analysis.
+                    </p>
+                    <p class="text-lg leading-relaxed mb-6">
+                        Beyond my academic pursuits, I am passionate about visual storytelling through photography. 
+                        This creative outlet allows me to capture moments that reflect the human experience within political 
+                        and social contexts.
+                    </p>
+                    <p class="text-lg leading-relaxed">
+                        As I approach graduation, I am seeking opportunities to apply my skills in political analysis, 
+                        legal research, and policy development while continuing to develop my creative practice.
+                    </p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Areas of Interest</h3>
+                    <ul class="space-y-2 mb-8">
+                        <li class="flex items-center"><i class="fas fa-check text-green-700 mr-3"></i> Political Theory & Analysis</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-700 mr-3"></i> Legal Research & Writing</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-700 mr-3"></i> Public Policy Development</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-700 mr-3"></i> Constitutional Law</li>
+                        <li class="flex items-center"><i class="fas fa-check text-green-700 mr-3"></i> Documentary Photography</li>
+                    </ul>
+                    <h3 class="text-xl font-semibold mb-4">Education</h3>
+                    <div class="bg-gray-50 p-4 rounded">
+                        <p class="font-semibold">Bachelor of Arts in Political Science</p>
+                        <p class="text-gray-600">Expected Graduation: June 2024</p>
+                        <p class="text-gray-600">Focus: Political Theory & Constitutional Studies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing Samples Section -->
+    <section id="writing" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold section-title">Writing Samples & Legal Reports</h2>
+            <div class="space-y-6">
+                <div class="writing-item bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-2">Constitutional Analysis: Executive Power in Crisis Management</h3>
+                    <p class="text-gray-600 mb-3">Legal research paper examining the expansion of executive authority during national emergencies</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-gray-500">Academic Paper • 15 pages</span>
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Read More →</button>
+                    </div>
+                </div>
+                <div class="writing-item bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-2">Voting Rights Act Compliance: A State-by-State Analysis</h3>
+                    <p class="text-gray-600 mb-3">Comprehensive report on voting legislation across key battleground states</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-gray-500">Policy Report • 22 pages</span>
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Read More →</button>
+                    </div>
+                </div>
+                <div class="writing-item bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-2">The Role of International Law in Climate Change Policy</h3>
+                    <p class="text-gray-600 mb-3">Research paper analyzing legal frameworks for global climate cooperation</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-gray-500">Research Paper • 18 pages</span>
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Read More →</button>
+                    </div>
+                </div>
+                <div class="writing-item bg-white p-6 rounded-lg shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-semibold mb-2">Civil Liberties vs. National Security: Post-9/11 Legislation</h3>
+                    <p class="text-gray-600 mb-3">Legal analysis of privacy rights and security measures in modern legislation</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-sm text-gray-500">Legal Brief • 12 pages</span>
+                        <button class="text-blue-600 hover:text-blue-800 font-medium">Read More →</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold section-title">Resume</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Education</h3>
+                    <div class="space-y-4">
+                        <div class="border-l-4 border-green-700 pl-4">
+                            <p class="font-semibold">B.A. Political Science</p>
+                            <p class="text-gray-600">University Name</p>
+                            <p class="text-sm text-gray-500">2020 - 2024 (Expected)</p>
+                            <p class="text-sm mt-2">GPA: 3.8/4.0</p>
+                            <p class="text-sm">Relevant coursework: Constitutional Law, Political Theory, Public Policy, International Relations</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Experience</h3>
+                    <div class="space-y-4">
+                        <div class="border-l-4 border-green-700 pl-4">
+                            <p class="font-semibold">Legal Research Intern</p>
+                            <p class="text-gray-600">Law Firm Name</p>
+                            <p class="text-sm text-gray-500">Summer 2023</p>
+                            <ul class="text-sm mt-2 list-disc list-inside">
+                                <li>Conducted legal research for constitutional law cases</li>
+                                <li>Drafted legal memoranda and case briefs</li>
+                                <li>Assisted in trial preparation and document review</li>
+                            </ul>
+                        </div>
+                        <div class="border-l-4 border-green-700 pl-4">
+                            <p class="font-semibold">Policy Analysis Intern</p>
+                            <p class="text-gray-600">Government Agency</p>
+                            <p class="text-sm text-gray-500">Spring 2023</p>
+                            <ul class="text-sm mt-2 list-disc list-inside">
+                                <li>Analyzed proposed legislation for constitutional compliance</li>
+                                <li>Prepared policy briefs for senior officials</li>
+                                <li>Constituent research and response drafting</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Skills & Activities</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <p class="font-semibold mb-2">Skills</p>
+                            <ul class="text-sm space-y-1">
+                                <li>• Legal Research & Writing</li>
+                                <li>• Policy Analysis</li>
+                                <li>• Constitutional Law</li>
+                                <li>• Political Analysis</li>
+                                <li>• Academic Writing</li>
+                                <li>• Public Speaking</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <p class="font-semibold mb-2">Activities</p>
+                            <ul class="text-sm space-y-1">
+                                <li>• Political Science Honor Society</li>
+                                <li>• Mock Trial Team</li>
+                                <li>• Student Government</li>
+                                <li>• Photography Club</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <button class="bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800 transition">
+                    <i class="fas fa-download mr-2"></i>Download Full Resume
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography Section -->
+    <section id="photography" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold section-title">Photography</h2>
+            <p class="text-lg text-gray-700 mb-8 max-w-3xl">
+                My photography explores the human side of politics and social change. Through documentary-style images, 
+                I aim to capture moments that reveal the personal stories behind political movements and community life.
+            </p>
+            <div class="photo-grid grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/politics1/400/300.jpg" alt="Political rally" class="w-full h-full object-cover">
+                </div>
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/community2/400/300.jpg" alt="Community meeting" class="w-full h-full object-cover">
+                </div>
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/protest3/400/300.jpg" alt="Peaceful protest" class="w-full h-full object-cover">
+                </div>
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/voting4/400/300.jpg" alt="Voting line" class="w-full h-full object-cover">
+                </div>
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/campaign5/400/300.jpg" alt="Campaign event" class="w-full h-full object-cover">
+                </div>
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/townhall6/400/300.jpg" alt="Town hall meeting" class="w-full h-full object-cover">
+                </div>
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/march7/400/300.jpg" alt="Community march" class="w-full h-full object-cover">
+                </div>
+                <div class="relative overflow-hidden rounded-lg">
+                    <img src="https://picsum.photos/seed/debate8/400/300.jpg" alt="Political debate" class="w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <button class="bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800 transition">
+                    View Full Portfolio
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold section-title">Get in Touch</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <p class="text-lg mb-6">
+                        I'm always interested in connecting with fellow political science enthusiasts, legal professionals, 
+                        and anyone passionate about creating positive change through policy and civic engagement.
+                    </p>
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <i class="fas fa-envelope text-gray-600 mr-4 w-5"></i>
+                            <span>zeid.bsharah@email.com</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-linkedin text-gray-600 mr-4 w-5"></i>
+                            <span>linkedin.com/in/zeidbsharah</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fab fa-twitter text-gray-600 mr-4 w-5"></i>
+                            <span>@zeidbsharah</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-phone text-gray-600 mr-4 w-5"></i>
+                            <span>Available upon request</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <form class="space-y-4">
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Name</label>
+                            <input type="text" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-gray-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Email</label>
+                            <input type="email" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-gray-500">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium mb-2">Message</label>
+                            <textarea rows="4" class="w-full px-4 py-2 border border-gray-300 rounded focus:outline-none focus:border-gray-500"></textarea>
+                        </div>
+                        <button type="submit" class="bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800 transition w-full">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Zeid Bsharah. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="hover:text-gray-300"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handler
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
