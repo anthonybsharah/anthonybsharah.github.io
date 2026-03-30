@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Photography - Zeid Bsharah</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+        }
+        .nav-link {
+            transition: color 0.3s ease;
+        }
+        .nav-link:hover {
+            color: #1a4028;
+        }
+        .photo-grid img {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .photo-grid img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+        .back-button {
+            transition: background-color 0.3s ease;
+        }
+        .back-button:hover {
+            background-color: #1a4028;
+        }
+        .section-title {
+            border-bottom: 3px solid #1a4028;
+            padding-bottom: 0.5rem;
+            margin-bottom: 3rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-xl font-bold">Zeid Bsharah</h1>
+                <div class="flex space-x-6">
+                    <a href="index.html" class="nav-link text-gray-600 hover:text-gray-900">← Back to Home</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Portfolio Header -->
+    <header class="bg-white py-16">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold mb-4">Travel Photography</h1>
+            <p class="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
+                A collection of moments from my travels around the world. Photography is my way of capturing 
+                the beauty, culture, and unique experiences that make each destination memorable.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="index.html#photography" class="back-button bg-gray-900 text-white px-6 py-3 rounded transition">
+                    <i class="fas fa-arrow-left mr-2"></i>Back to Main Site
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Gallery -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            
+            <!-- Japan -->
+            <div class="mb-20">
+                <h2 class="text-3xl font-bold section-title text-center">🗾 Japan</h2>
+                <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Exploring the land of the rising sun - from ancient temples to modern cityscapes.
+                </p>
+                <div class="photo-grid grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="japan-photo1.jpg" alt="Japan travel photo 1" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Temple Gardens
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="japan-photo2.jpg" alt="Japan travel photo 2" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Tokyo Streets
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="japan-photo3.jpg" alt="Japan travel photo 3" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Mount Fuji View
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="japan-photo4.jpg" alt="Japan travel photo 4" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Kyoto Bamboo
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- New York -->
+            <div class="mb-20">
+                <h2 class="text-3xl font-bold section-title text-center">🗽 New York</h2>
+                <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+                    The city that never sleeps - capturing the energy and diversity of the Big Apple.
+                </p>
+                <div class="photo-grid grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="newyork-photo1.jpg" alt="New York travel photo 1" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Times Square
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="newyork-photo2.jpg" alt="New York travel photo 2" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Central Park
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="newyork-photo3.jpg" alt="New York travel photo 3" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Brooklyn Bridge
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="newyork-photo4.jpg" alt="New York travel photo 4" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Skyline View
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Montreal/Toronto/Ottawa -->
+            <div class="mb-20">
+                <h2 class="text-3xl font-bold section-title text-center">🍁 Canadian Cities</h2>
+                <p class="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
+                    Exploring the diverse beauty of Montreal, Toronto, and Ottawa - from French charm to urban sophistication.
+                </p>
+                <div class="photo-grid grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="canada-photo1.jpg" alt="Montreal travel photo" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Old Montreal
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="canada-photo2.jpg" alt="Toronto travel photo" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Toronto Skyline
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="canada-photo3.jpg" alt="Ottawa travel photo" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Parliament Hill
+                        </div>
+                    </div>
+                    <div class="relative overflow-hidden rounded-lg">
+                        <img src="canada-photo4.jpg" alt="Canada travel photo" class="w-full h-full object-cover">
+                        <div class="absolute bottom-0 left-0 right-0 bg-black bg-opacity-50 text-white p-2 text-sm">
+                            Quebec City
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Travel Photography -->
+    <section class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-8">About My Travel Photography</h2>
+            <p class="text-lg text-gray-700 mb-6">
+                Photography has become an essential part of my travel experience. Each destination offers unique 
+                perspectives, from the serene temples of Japan to the bustling streets of New York, and the 
+                historic charm of Canadian cities.
+            </p>
+            <p class="text-lg text-gray-700 mb-8">
+                These images represent not just places I've visited, but moments that captured my imagination and 
+                taught me something new about different cultures, architecture, and ways of life.
+            </p>
+            <div class="flex justify-center space-x-4">
+                <a href="index.html#contact" class="bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800 transition">
+                    <i class="fas fa-envelope mr-2"></i>Contact Me
+                </a>
+                <a href="index.html" class="border border-gray-900 text-gray-900 px-6 py-3 rounded hover:bg-gray-900 hover:text-white transition">
+                    <i class="fas fa-home mr-2"></i>Back to Home
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Zeid Bsharah. All rights reserved.</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="index.html" class="hover:text-gray-300">← Back to Main Site</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
